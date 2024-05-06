@@ -4,5 +4,5 @@ export interface ApiResponse {
   success: boolean;
   message: string;
   isAcceptingMessage?: boolean;
-  tweet?: Array<Tweet>;
+  tweets?: Array<Tweet>;
 }
